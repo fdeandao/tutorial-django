@@ -1,0 +1,7 @@
+#!/bin/bash
+
+/usr/sbin/mysqld &
+sleep 5
+
+CD /root/tutorial-django
+python manage.py runserver 8080
