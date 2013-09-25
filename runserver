@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /vagrant/work
 /usr/sbin/mysqld &
 sleep 5
 
