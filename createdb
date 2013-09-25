@@ -13,4 +13,4 @@ sleep 5
 
 $MYSQL -e "$SQL"
 
-python manage.py syncd --noinputb
+python manage.py syncdb --noinput
